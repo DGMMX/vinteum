@@ -1,6 +1,8 @@
 package com.example;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Monte {
@@ -16,10 +18,10 @@ public class Monte {
     }
 
     public void embaralhar(){
-        collections.shuffle(cartas);
+        Collections.shuffle(cartas);
     }
 
-    public Cartas virar(){
+    public Carta virar(){
         return cartas.remove(0);
     }
 
